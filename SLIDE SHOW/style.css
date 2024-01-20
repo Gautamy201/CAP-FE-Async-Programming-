@@ -1,0 +1,71 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: 0;
+    
+}
+body{
+    background-color: rgb(3, 100, 114);
+    color: black;
+}
+section{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.slide-contener{
+    position: relative;
+    border: 3px solid black;
+    border-radius: 5px;
+    background-color: rgba(0, 255, 255, 0.689);
+
+}
+.slide-contener h1{
+    text-align: center;
+    margin: 10px 0;
+}
+
+.slide-box{
+    width: 900px;
+    display: flex;
+    transition: all 10s;
+}
+.slide{
+    flex: 0 0 900px;
+    height: 450px;
+    text-align: center;
+    font-size: 30px;
+    display: none;
+    background-size: cover;
+    background-position: center;
+    border-top: 3px solid black;
+    transition: all 10s;
+}
+.slide p{
+    color: rgba(0, 255, 255, 0.626);
+    background-color: rgba(0, 0, 0, 0.272);
+    padding: 5px 0;.
+}
+.btn-box{
+    position: absolute;
+    bottom: 20px;
+    left: 50%;
+    transform: translate(-50%);
+}
+
+.btn-box button{
+    margin: 0 10px;
+    padding: 2px 10px;
+    font-size: 17px;
+    width: 80px;
+    font-weight: 600;
+    border-radius: 5px;
+    background: rgba(0, 200, 255, 0.544);
+    cursor: pointer;
+}
+.btn-box button:hover{
+    background-color: aqua;
+    transition: all 1s;
+}
